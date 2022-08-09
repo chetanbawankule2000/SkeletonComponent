@@ -9,7 +9,7 @@ const MovieData = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(true);
+      setLoading(false);
     }, 1000);
   }, []);
 
